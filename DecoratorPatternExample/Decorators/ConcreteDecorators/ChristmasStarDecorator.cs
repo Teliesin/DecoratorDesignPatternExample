@@ -7,7 +7,7 @@
         public string GetDescription()
         {
             var description = BaseComponent.GetDescription();
-            return string.Format($"{0} z gwiadką choinkową na czubku", description);
+            return string.Format("{0} z gwiadką choinkową na czubku", description);
         }
     }
 }

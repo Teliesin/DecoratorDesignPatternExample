@@ -9,7 +9,7 @@ namespace DecoratorDesignPatternExample.ConcreteDecorators
         public string GetDescription()
         {
             var description = BaseComponent.GetDescription();
-            return string.Format($"{0} ze światełkami choinkowymi", description);
+            return string.Format("{0} ze światełkami choinkowymi", description);
         }
     }
 }
